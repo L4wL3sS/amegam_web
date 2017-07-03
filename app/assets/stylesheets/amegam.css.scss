@@ -1,3 +1,38 @@
 // Place all the styles related to the Amegam controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+	$m-big: 50px;
+	$m-mid: 40px;
+	$m-small: 20px;
+	$m-min: 5px;
+	$m-non: 0px;
+	$c-download: #41BBBE;
+	$c-footer: #063D9A;
+	$white: #fff;
+
+.navbar{
+	background-color: $white !important;
+}
+
+.footer{
+	text-align: center;
+	background: $c-footer;
+	padding: $m-small $m-non $m-small $m-non;
+	p{
+		color: $white;
+	}		
+}
+
+#myCarousel{
+	img{
+		min-width: 100%;
+		max-height: 750px;
+	}
+	.active{
+		background-color: orange;
+		border: none;
+	}
+	li{
+		background-color: $white;
+	}
+}
