@@ -1,0 +1,2 @@
+module AmegamHelper
+end
