@@ -52,9 +52,40 @@ p {
 	font-size: 150%;
 }
 
+
 .navbar{
 	background-color: $white !important;
+	border: none;
+	.navbar-header{
+		#logo-header{
+			margin-top: 20px;
+
+		}
+	}
+	#navbar{
+		text-align: center;
+		ul{
+			margin-top: 40px;
+			li{
+				font-size: 16px;
+				border-right: 2px solid #437ddb;
+				a{
+					padding-top: 0;
+					padding-bottom: 0;
+				}
+			}
+			li:last-child{
+				border-right: none;
+			} 
+		}
+	}
 }
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
 
 .prefooter{
 	text-align: center;

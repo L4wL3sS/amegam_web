@@ -7,21 +7,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <%= link_to home_path do %>          
-            <img class="img-responsive" href="#" src="http://res.cloudinary.com/lawless/image/upload/v1499071949/amegan/logo_cabecera.png" alt="header-logo">
+          <%= link_to home_path do %>
+          <ul class="nav navbar-nav navbar-left">
+            <img id="logo-header" class="img-responsive" href="#" src="http://res.cloudinary.com/lawless/image/upload/v1499071949/amegan/logo_cabecera.png" alt="header-logo">
+          </ul>          
+            
           <% end %>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">            
+          <ul class="nav navbar-nav navbar-center">            
             <li><%= link_to "ABOUT US" %></li> 
             <li><%= link_to "INVESTMENT FOCUS", secrets_index_path %></li>
             <li><%= link_to "PORTFOLIO" %></li> 
             <li><%= link_to "NEWS" %></li> 
             <li><%= link_to "CONTACT US" %></li>            
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+          <ul id="navbar2" class="nav navbar-nav navbar-right">
             <li><img class="img-responsive" src="http://res.cloudinary.com/lawless/image/upload/v1499071949/amegan/linkedin.png" alt="linkedin"></li> 
           </ul>
         </div><!--/.nav-collapse -->
       </div>
 </nav>
+  
